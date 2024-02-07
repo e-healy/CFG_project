@@ -1,15 +1,13 @@
 .navbar {
     background-color: #fff;
     height: 80px;
-    margin: 20px;
-    border-radius: 16px;
     padding: 0.5rem;
 
 }
 
 .navbar-brand {
     font-weight: 500;
-    color: darkcyan;
+    color: rgb(0, 72, 139);
     font-size: 24px;
     transition: 0.3s color;
 }
@@ -28,6 +26,7 @@
 .nav-link {
     color: #666777;
     font-weight: 500;
+    font-size: 20px;
     position: relative;
 }
 
@@ -55,11 +54,34 @@
     }
 }
 
+#hero-carousel {
+    margin: 50px;
+}
+
+h2, p {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.c-item {
+    height: 480px;
+}
+
+.c-img {
+    height: 100%;
+    filter: brightness(0.6);
+}
+
+/* placing carousel captions at the very bottom of the image */
+.carousel-caption {
+    bottom: 0;
+}
+
 .hero-section {
     background: url() no-repeat center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 35vh;
 }
 
 .hero-section::before {
@@ -73,7 +95,7 @@
 }
 
 .hero-section .container {
-    height: 100vh;
+    height: 35vh;
     z-index: 1;
     position: relative;
     display: flex;
@@ -84,7 +106,6 @@
 }
 
 .hero-section h1 {
-    border: 1px solid black;
     font-size: 1.5em;
 }
 
@@ -95,16 +116,17 @@
 
 
 .about-section {
-    background: rgb(94, 107, 167);
+    background-color:  rgba(131, 171, 243, 0.6);
     background-size: cover;
     width: 100%;
     height: 50vh;
 }
 
-.about-section .container {
+.about-section .about-container {
     height: 100vh;
     z-index: 1;
     position: relative;
     padding: 20px;
+    display: flex
 }
 

@@ -21,7 +21,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
                   <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Home</a>
                 </li>
@@ -51,9 +51,58 @@
         </div>
     </section>
 
+    <!--Carousel-->
+    <section><div id="hero-carousel" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="./img/seville.jpeg" class="d-block w-100 c-img" alt="Seville">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Seville</h2>
+            <p>Rich in history and soaked in sun.</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="./img/canada.jpg" class="d-block w-100 c-img" alt="Canada">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Canada</h2>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="./img/scotland.jpg" class="d-block w-100 c-img" alt="Scotland">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Scotland</h2>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="./img/yorkshire.jpeg" class="d-block w-100 c-img" alt="Yorkshire">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Yorkshire</h2>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div></section>
+
     <!-- About Section-->
     <section class="about-section">
-        <div class="container">
+        <div class="about-section">
+          <div class="about-item">
             <h1>About</h1>
             <blockquote class="blockquote mb-0">
                 <p>"Live with no excuses and travel with no regrets"</p>
@@ -62,6 +111,10 @@
             <p>There's no denying that everyone loves a break from their habitual routines. It is what excites us and what keeps us motivated in our long days at work. </p>
             <p>We have created a travel page awaiting your arrival. For you to discover some of the best places that we have been to, so that we can open your eyes to a whole new world.</p>
             <p>So what are you waiting for? Get your luggage packed and explore soome different areas of the world, with fun facts, interactive content for each!</p>
+          </div>
+          <div class="about-item">
+            <img src="./img/love-travel.jpg" alt="I love travel" width="250" height="300">
+          </div>
         </div>
     </section>
 
