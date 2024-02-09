@@ -231,5 +231,6 @@ blockquote {
     display: flex;
     justify-content: center;
     color: white;
+    margin-right: 30px;
     opacity: 0.7;
 }
