@@ -77,11 +77,12 @@ body {
 .c-img {
     height: 100%;
     filter: brightness(0.6);
+    object-fit: cover;
 }
 
-/* placing carousel captions at the very bottom of the image */
-.carousel-caption {
-    bottom: 0;
+#hero-carousel, .btn {
+    background-color: #2b4c55;
+    border: #2b4c55;
 }
 
 /* .hero-section {
@@ -125,15 +126,16 @@ body {
 blockquote {
     padding: 40px;
     margin: 35px;
-    border: 2px solid #3E4A49;
+    color: rgb(216, 211, 211);
+    text-shadow: 2px 2px 4px #000000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     text-align: center;
     font-style: italic;
-    background-color: #ffffff;
+    background-color: #2b4c55;
 }
 
 .blockquote-footer {
-    color: #3E4A49;
+    color: white;
 }
 
 .about-section {
