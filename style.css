@@ -138,6 +138,7 @@ blockquote {
 
 .about-section {
     background-color: #45968E;
+    color: white;
 }
 
 .about-section .about-container {
@@ -172,7 +173,7 @@ blockquote {
 .footer-container {
     width: 100%;
     padding: 20px 25px 10px;
-    background-color: #3E4A49;
+    background-color:#2b4c55;
 }
 
 .social-media {
@@ -184,26 +185,26 @@ blockquote {
 .social-media a {
     text-decoration: none;
     padding: 5px;
-    background-color: #fff;
+    background-color: #45968E;
     margin: 10px;
-    border-radius: 40%;
+    border-radius: 50%;
 
 }
 
 .social-media a i {
     font-size: 40px;
-    color: black;
+    color: #fff;
     opacity: 0.9;
 }
 
 /* Hover effects on social media icons */
 .social-media a:hover {
-    background-color: #111;
+    background-color: #fff;
     transition: 0.5s;
 }
 
 .social-media a:hover i {
-    color: #fff;
+    color: #45968E;
     transition: 0.5s;
 }
 
