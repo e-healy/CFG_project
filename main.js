@@ -8,4 +8,3 @@ btnScrollToTop.addEventListener("click", function () {
     });
 
 });
-
