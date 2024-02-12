@@ -238,6 +238,10 @@ blockquote {
 }
 
 /* About */
+.about-introduction {
+    background-color: #2b4c55;
+    padding: 10px;
+}
 .about-introduction p {
     color: white;
     font-size: 20px;
@@ -304,4 +308,16 @@ form button {
     width: 150px;
     margin: 20px auto 0;
     border-radius: 30px;
+}
+
+/* Map */
+
+
+.map-about-section p {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #2b4c55;
+    color: #fff;
+    display: flex;
+    justify-content: center;
 }
