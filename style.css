@@ -6,6 +6,7 @@
 
 body {
     background-color: #45968E;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
@@ -70,6 +71,10 @@ body {
     text-shadow: 2px 2px 4px #000000;
 }
 
+.carousel-item p {
+    font-family: 'Dancing Script', sans-serif;
+}
+
 .c-item {
     height: 480px;
 }
@@ -80,10 +85,9 @@ body {
     object-fit: cover;
 }
 
-#hero-carousel, .btn {
-    background-color: #2b4c55;
-    border: #2b4c55;
-}
+/* .carousel-caption h2 {
+    letter-spacing: 0.3;
+} */
 
 /* .hero-section {
     background: url() no-repeat center;
@@ -115,11 +119,16 @@ body {
 }
 
 .hero-section h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
+}
+
+.hero-section span {
+    font-style: italic;
 }
 
 .hero-section h4 {
-    font-size: 1em;
+    font-family: 'Dancing Script';
+    font-size: 1.2em;
     font-style: italic;
 }
 
@@ -136,8 +145,15 @@ body {
 }
 
 .hero-container-seville h1 {
-    font-size: 2em;
+    font-size: 3em;
+    font-family: 'Dancing Script', sans-serif;
 } 
+
+.hero-container-seville:hover h1 {
+    color: rgb(177, 151, 2);
+    transition: 0.3s;
+    cursor: pointer;
+}
 
 .hero-container-seville img {
     margin-bottom: 50px;
@@ -186,6 +202,11 @@ blockquote {
 .about-section {
     background-color: #45968E;
     color: white;
+}
+
+.about-header h1 {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 100px;
 }
 
 .about-item p {
@@ -305,14 +326,33 @@ blockquote {
 }
 
 .col {
-    padding: 20px;
+    padding: 3em 3em;
     display: flex;
     justify-content: center;
 }
 
-.card h5, .card p {
-    color: #2b4c55;
+.card h5 {
+    font-size: 3rem;
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: 500;
+    color: #0D0D0D;
+    margin-bottom: 1.5rem;
+}
+
+.card p {
+    color: #3D3D3D;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
     text-align: center;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: 18rem;
+    object-fit: cover;
 }
 
 /* Contact form */
@@ -338,6 +378,8 @@ form {
 
 form h3 {
     color: #555;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 50px;
     font-weight: 800;
     margin: 20px;
 }
@@ -355,7 +397,8 @@ form button {
     padding: 15px;
     background: #2b4c55;
     color: #fff;
-    font-size: 18px;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 25px;
     border: 0;
     outline: none;
     cursor: pointer;
@@ -455,4 +498,45 @@ form button {
 
 .incorrect {
     background: #ff9393;
+}
+
+
+/* Style Destination tester */
+.col {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card h5, .card p {
+    color: #2b4c55;
+    text-align: center;
+}
+
+.dest-btn {
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #2b4c55;
+    background-color: #DCE4FF;
+    border: none;
+    border-radius: 6px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.dest-btn span {
+    margin-left: 1rem;
+    transition: 0.2s;
+}
+
+.dest-btn:hover, .dest-btn:active {
+    background-color: #45968E;
+    color: #DCE4FF;
+}
+
+.dest-btn:hover, .dest-btn:active span {
+    margin-left: 1.5rem;
 }
