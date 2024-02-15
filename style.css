@@ -356,11 +356,11 @@ blockquote {
 }
 
 .card:hover {
-    transform: scale(1.15);
+    transform: scale(1.05);
 }
 
 .card-title {
-    color: #ff9393;
+    color: #471c1c;
     font-size: 3rem;
     font-family: 'Dancing Script', sans-serif;
     margin-bottom: 1rem;
@@ -555,5 +555,32 @@ form button {
 }
 
 .dest-btn:hover, .dest-btn:active span {
+    margin-left: 0.3rem;
+}
+
+/* Carousel button */
+.carousel-item .carousel-btn {
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    color: #2b4c55;
+    background-color: #DCE4FF;
+    font-weight: 500;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.carousel-btn span {
+    margin-left: 1rem;
+    transition: 0.2s;
+}
+
+.carousel-btn:hover, .carousel-btn:active {
+    background-color: #2b4c55;
+    color: #DCE4FF;
+}
+
+.carousel-btn:hover, .carousel-btn:active span {
     margin-left: 0.3rem;
 }
